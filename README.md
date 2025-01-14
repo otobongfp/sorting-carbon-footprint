@@ -46,6 +46,15 @@ sudo powermetrics --samplers cpu_power,gpu_power -i 1000
 - **`--samplers cpu_power,gpu_power`**: Monitors power usage for CPU and GPU.
 - **`-i 1000`**: Sets a 1-second interval between samples.
 
+#### **What output on the console looks like**:
+
+```
+Benchmarking QuickSort...
+QuickSort - Time Taken: 6023.59ms
+QuickSort - Energy Estimate: 78.1853 J
+QuickSort - Carbon Footprint: 0.000010 kgCO₂
+```
+
 ---
 
 ## **Features**
@@ -68,23 +77,3 @@ sudo powermetrics --samplers cpu_power,gpu_power -i 1000
 ## **Contributing**
 
 Contributions are welcome! Feel free to fork the repository, submit pull requests, or open issues to suggest improvements.
-
-Benchmarking QuickSort...
-QuickSort - Time Taken: 6023.59ms
-QuickSort - Energy Estimate: 78.1853 J
-QuickSort - Carbon Footprint: 0.000010 kgCO₂
-
-Benchmarking HeapSort...
-HeapSort - Time Taken: 3560.62ms
-HeapSort - Energy Estimate: 19.5478 J
-HeapSort - Carbon Footprint: 0.000003 kgCO₂
-
-Benchmarking LinearSearch...
-LinearSearch - Time Taken: 1.13ms
-LinearSearch - Energy Estimate: 0.0000 J
-LinearSearch - Carbon Footprint: 0.000000 kgCO₂
-
-Benchmarking BinarySearch...
-BinarySearch - Time Taken: 0.26ms
-BinarySearch - Energy Estimate: 0.0000 J
-BinarySearch - Carbon Footprint: 0.000000 kgCO₂
